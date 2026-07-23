@@ -1,0 +1,138 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+.python-version
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+coverage.xml
+nosetests.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pyright
+pyrightconfig.json
+
+# =============================================================================
+# Jupyter Notebooks
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =============================================================================
+# Machine Learning — modelos treinados e checkpoints
+# =============================================================================
+models/*.pth
+models/*.pt
+models/*.ckpt
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.bin
+# Manter .gitkeep para preservar a pasta
+!models/.gitkeep
+
+# =============================================================================
+# Dados
+# =============================================================================
+# Dados brutos (grandes arquivos DICOM, imagens médicas)
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+
+# CSV / Excel grandes (descomente se quiser ignorar)
+# *.csv
+# *.xlsx
+
+# =============================================================================
+# Outputs / artefatos gerados
+# =============================================================================
+outputs/*.png
+outputs/*.jpg
+outputs/*.jpeg
+outputs/*.pdf
+outputs/*.svg
+outputs/*.html
+outputs/*.json
+# Manter .gitkeep
+!outputs/.gitkeep
+
+# Logs e métricas
+logs/
+runs/
+wandb/
+mlruns/
+*.log
+*.tsv
+
+# =============================================================================
+# Editores e IDEs
+# =============================================================================
+# VS Code / Kiro
+.vscode/
+*.code-workspace
+
+# JetBrains (PyCharm, DataSpell)
+.idea/
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+# =============================================================================
+# Sistema operacional
+# =============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# =============================================================================
+# Miscelânea
+# =============================================================================
+*.tmp
+*.temp
+*.bak
+*.orig
