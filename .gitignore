@@ -71,7 +71,8 @@ data/external/
 *.mha
 *.mhd
 
-# CSV / Excel grandes (descomente se quiser ignorar)
+# CSVs clínicos do CBIS-DDSM são versionados (pequenos, importantes)
+# Para ignorar CSVs grandes, descomente abaixo:
 # *.csv
 # *.xlsx
 
