@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="OncoVision AI Banner" width="700" style="max-width: 100%; border-radius: 12px; margin-bottom: 12px;" />
+
 # 🔬 OncoVision
 
 **Detecção de câncer de mama por mamografia com deep learning clínico**
@@ -37,6 +39,9 @@ O **OncoVision** é um sistema de classificação binária de mamografias (benig
 
 ```
 OncoVision/
+│
+├── assets/
+│   └── banner.png                  ← banner do projeto
 │
 ├── data/
 │   └── raw/
